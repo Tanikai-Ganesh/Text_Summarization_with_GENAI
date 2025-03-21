@@ -8,6 +8,8 @@ from youtube_transcript_api import YouTubeTranscriptApi
 import re
 from langchain.docstore.document import Document
 
+from dotenv import load_dotenv
+load_dotenv()
 
 ## sstreamlit APP
 st.set_page_config(page_title="LangChain: Summarize Text From YT or Website", page_icon="🦜")
